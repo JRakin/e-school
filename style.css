@@ -1,0 +1,72 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/*TOP SECTION AND NAVBAR DESIGN */
+.top-section {
+  background-color: #f0fff0;
+}
+.container {
+  margin-bottom: 100px;
+}
+.navbar-nav li {
+  padding: 8px 15px;
+}
+.banner-text {
+  line-height: 2;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.top-section__banner h6 {
+  color: crimson;
+  margin-bottom: 20px;
+}
+.top-section__banner h1 {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.top-section__banner h1 span {
+  color: #21b573;
+}
+.common-btn {
+  width: 130px;
+  padding: 8px;
+  border: none;
+  border-radius: 33px;
+  background-color: #21b573;
+  color: #fff;
+}
+
+.navbar-brand img {
+  width: 60%;
+}
+.illustration-banner img {
+  width: 90%;
+  margin-bottom: 5%;
+}
+
+/*FEATURE CARD DESIGN  */
+.features .card {
+  border: none;
+  border-radius: 5px;
+  background-color: #f0fffa;
+  transition: background-color 0.8s ease;
+}
+.features .card:hover {
+  box-shadow: 5px 5px 10px rgb(180, 180, 180);
+  background-color: #fff;
+}
+.features .card img {
+  width: 40%;
+  padding-top: 50px;
+}
+.card-title {
+  color: #413960;
+  font-weight: 700;
+}
+.card-text {
+  color: #413960;
+}
+
+.courses .card img {
+  padding: 10px;
+}
