@@ -28,8 +28,7 @@ body {
   color: #21b573;
 }
 .common-btn {
-  width: 130px;
-  padding: 8px;
+  padding: 8px 24px;
   border: none;
   border-radius: 33px;
   background-color: #21b573;
@@ -67,6 +66,27 @@ body {
   color: #413960;
 }
 
+.courses .card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+}
 .courses .card img {
   padding: 10px;
+}
+.courses h1 {
+  text-align: center;
+  color: #413960;
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding: 40px;
+}
+.card-body .extra-info img {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  padding: 0;
+}
+.extra-info p {
+  margin-left: 4px;
 }
