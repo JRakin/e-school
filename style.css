@@ -1,5 +1,6 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: #e5e5e5;
 }
 /*TOP SECTION AND NAVBAR DESIGN */
 .top-section {
@@ -16,6 +17,9 @@ body {
   font-weight: 300;
   margin-bottom: 25px;
 }
+.top-section__banner {
+  padding: 30px;
+}
 .top-section__banner h6 {
   color: crimson;
   margin-bottom: 20px;
@@ -27,14 +31,6 @@ body {
 .top-section__banner h1 span {
   color: #21b573;
 }
-.common-btn {
-  padding: 8px 24px;
-  border: none;
-  border-radius: 33px;
-  background-color: #21b573;
-  color: #fff;
-}
-
 .navbar-brand img {
   width: 60%;
 }
@@ -47,7 +43,7 @@ body {
 .features .card {
   border: none;
   border-radius: 5px;
-  background-color: #f0fffa;
+  background-color: #f0fff0;
   transition: background-color 0.8s ease;
 }
 .features .card:hover {
@@ -74,19 +70,107 @@ body {
 .courses .card img {
   padding: 10px;
 }
-.courses h1 {
-  text-align: center;
-  color: #413960;
-  font-weight: 700;
-  margin-bottom: 40px;
-  padding: 40px;
-}
+
 .card-body .extra-info img {
   width: 20px;
   height: 20px;
   margin-top: 2px;
   padding: 0;
 }
+.card button {
+  margin-bottom: 10px;
+}
 .extra-info p {
   margin-left: 4px;
+  margin-bottom: 5px;
+}
+/* TESTIMONIAL DESIGN  */
+.testimonial img {
+  width: 120px;
+  height: 120px;
+}
+.testimonial p {
+  margin: 0;
+}
+/* COOL THINGS  */
+.cool-things .card {
+  border: none;
+  background-color: #f0fff0;
+  border-radius: 5px;
+  transition: background-color 0.8s ease;
+}
+.cool-things .card:hover {
+  box-shadow: 5px 5px 10px rgb(180, 180, 180);
+  background-color: #fff;
+}
+.card .icon {
+  padding: 30px;
+  font-size: 40px;
+  color: orange;
+  /* background-image: linear-gradient(90deg, rgb(248, 192, 89), orange); */
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/* TEACHERS  */
+.teachers img {
+  width: 70%;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+/* FOOTER SECTION  */
+.footer-section {
+  background-color: #413960;
+  color: #fff;
+  padding: 50px 50px 30px 50px;
+}
+.footer-section p {
+  padding-right: 20px;
+}
+.footer-section ul {
+  padding: 0;
+}
+.footer-section ul li {
+  list-style: none;
+  font-weight: 300;
+}
+.footer-section h4 {
+  font-weight: 400;
+}
+.copyright {
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+/* COMMON DESIGN  */
+.courses h1,
+.teachers h1,
+.testimonial h1,
+.cool-things h1 {
+  text-align: center;
+  color: #413960;
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding: 40px;
+}
+.card h5 {
+  margin-bottom: 5px;
+}
+.common-btn {
+  padding: 6px 24px;
+  border: none;
+  border-radius: 33px;
+  background-color: #21b573;
+  color: #fff;
+}
+.common-btn:hover {
+  background-image: linear-gradient(90deg, rgb(9, 238, 96), rgb(4, 182, 63));
+}
+
+/* responsive design for testimonial part  */
+@media screen and (max-width: 768px) {
+  .testimonial img {
+    margin: 20px auto !important;
+  }
 }
