@@ -7,13 +7,13 @@ body {
   background-color: #f0fff0;
 }
 .top-section__navbar {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .container {
   margin-bottom: 100px;
 }
 .navbar-nav li {
-  padding: 8px 15px;
+  padding: 8px 10px;
 }
 .navbar-brand img {
   width: 60%;
